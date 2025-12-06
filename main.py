@@ -16,7 +16,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.setWindowTitle("抽签器")
         self.setFixedSize(342, 324)
-        self.setWindowIcon(QIcon(icon_path))
+        #self.setWindowIcon(QIcon(icon_path))
+        self.setWindowIcon(QIcon("icon.png"))
+
 
         self.roller = NameRoller(parent=self.centralwidget)
         self.roller.setGeometry(self.textBrowser.geometry())
@@ -81,7 +83,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon(icon_path))
+    #app.setWindowIcon(QIcon(icon_path))
+    app.setWindowIcon(QIcon("icon.png"))
     w = MainWindow()
     w.show()
     sys.exit(app.exec_())
