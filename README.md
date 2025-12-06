@@ -1,6 +1,6 @@
 # 抽签器应用说明
 
-专为[揭阳第一中学数模队](jessssssseea.github.io/JYYZMMC)开发的抽签器。
+专为[揭阳第一中学数模队](https://jessssssseea.github.io/JYYZMMC)开发的抽签器。
 
 ## 简介
 这是一个基于PySide2开发的抽签签应用程序，支持从Excel表格加载人员信息，按不同维度（组别、班级、性别、姓氏等）智能识别表头筛选抽签范围，并进行随机抽签操作。
